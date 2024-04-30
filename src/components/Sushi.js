@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 
-function Sushi({ sushi, setSushi, setPlates, plates, money, SetMoney}) {
+function Sushi({ sushi, setPlates, plates, money }) {
 
-  const { id, name, img_url, price, created_at } = sushi
+  const { id, name, img_url, price } = sushi
   const [eaten, setEaten] = useState(false)
 
 
